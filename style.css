@@ -1,0 +1,174 @@
+ыыыbody{
+    background-color: black;
+    padding: 50px;
+}
+
+h1{
+    margin: auto;
+}
+
+div{
+    margin-top: 2px;
+    text-align: center;
+}
+
+#container{
+    background-color: brown;
+    width: auto;
+}
+
+.header{
+    background-color: aqua;
+    height: 150px;
+}
+
+
+.content{
+    background-color: rgb(0, 255, 247);
+    float: left;
+    width: 75%;
+    height: auto;
+}
+.sidebar{
+    background-color: rgb(255, 132, 0);
+    float: right;
+    width: 25%;
+    height: auto;
+}
+.clear{
+    clear: both;
+}
+
+.footer{
+    background-color: rgb(174, 0, 255);
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ff{
+    display: flex;
+
+}
+
+.lol{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.lolimg{
+    flex: 30%;
+   
+
+}
+
+.lolimg img{
+    height: 150px;
+}
+
+.loltext{
+    flex: 70%;
+    height: auto;
+    width: auto;
+}
+
+.menu1 {
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    
+  }
+  .menu1 ul{  /*Настраиваем самую внешнию таблицу*/
+    list-style-type: none; 
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    
+    
+    
+  }
+  
+  .menu1 ul li{ /*настраиваем строки изначальной таблицы*/
+    position: relative;
+    display:block;
+    width: auto;
+    height: auto;
+  
+  
+  }
+  
+  .menu1 ul li a{
+    
+    width: 200px;
+    line-height: 1.5em;
+    padding: 3px;
+    border: solid #ffffff;
+    background-color: black;
+    color: #ffffff;
+    padding:4px ;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 2px;
+    height: 36px; 
+  }
+  
+  .menu1 ul li a:hover {
+   
+    
+    width: 200px;
+    line-height: 1.5em;
+    padding: 3px;
+    border: solid #000000;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    padding:4px ;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 2px;
+    height: 36px;
+  }
+  
+  .menu1 ul li ul{
+    padding: absolute;
+    top: 36px; /* Сдвиг вниз на...*/
+    left: 0;   /*Сдвиг вправо на ...*/
+    display: none;
+    width: 100px;
+    
+    
+    
+  }
+  
+  .menu1 ul li:hover ul{
+    display: block;
+  }
+  
+  .menu1 ul li ul li{
+    
+    float:none;
+    width: 100%;
+  }
+
+ 
+  .carusel{
+    margin: 10px;
+    display: flex;
+  }
+  .carusel div{
+    flex: 70%;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+  }
+  .carusel div img{
+   
+    height: 670px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 7px 9px 16px 0px rgb(24, 24, 24);
+    justify-content: center;
+  }
